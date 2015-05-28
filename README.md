@@ -1,4 +1,5 @@
 # Mah-score
+[![Build Status](https://travis-ci.org/ujamer/mah-score.svg)](https://travis-ci.org/ujamer/mah-score)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
