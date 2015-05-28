@@ -19,5 +19,16 @@ install:
   - npm install
   - bower install
 
+before_script:
+  - ember sauce:connect
+
 script:
   - npm test
+
+after_script:
+  - ember sauce:disconnect
+
+env:
+  global:
+    - SAUCE_USERNAME=ujamer
+    - SAUCE_ACCESS_KEY=96b6570c-a2c3-4069-8357-a61cbb7ad6b3
